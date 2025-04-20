@@ -10,7 +10,7 @@ export default function Projects() {
         {
             title: 'SkillMatch.Tech: A Complete Clone',
             description: 'Built a full-stack eCommerce shoe store using React, Node.js, Express, and MongoDB. Implemented secure auth, dynamic product views, and real-time cart features with toast alerts and live total updates via RESTful APIs.',
-            image: '/skill.png', // Replace with the actual image path
+            image: '/Skill.png', // Replace with the actual image path
         },
         {
             title: ' StepHub: A Shoe Store Template',

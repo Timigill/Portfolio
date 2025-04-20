@@ -20,6 +20,10 @@ export default function Hero() {
       <div style={{ zIndex: 1 }}>
         <h1 className="display-4">Welcome to My Portfolio</h1>
         <p className="lead">
+           Taimoor Gill
+        </p>
+
+        <p className="lead">
            Web Developer | Flyer Designer | UI/UX Designer
         </p>
       </div>
