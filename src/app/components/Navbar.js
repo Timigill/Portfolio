@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
-        <Link className="navbar-brand" href="/">My Portfolio</Link>
+        <Link className="navbar-brand" href="/">Taimoor Gill</Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -41,6 +41,12 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="#projects">Projects</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="experience">Experience</Link> {/* Added Experience Link */}
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="skills">Skills</Link> {/* Added Experience Link */}
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="#contact">Contact</Link>
